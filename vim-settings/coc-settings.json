@@ -1,0 +1,32 @@
+{
+	"signature":{
+		"triggerSignatureWait": 2000
+	},
+	"suggest":{
+		"localityBonus": false,
+	},
+	"coc":{
+		"source":{
+			"around":{
+				"enable": false
+			},
+			"buffer":{
+				"enable": false
+			}
+		}	
+	},
+	"languageserver": { 
+		"clubhouse": {
+			//"command": "python3",
+			//"args": ["server.py"],
+			//"cwd": ".",
+			//"initializationOptions":{},
+			"settings":{
+
+			},
+			"host": "127.0.0.1",
+			"port": 45141,
+			"filetypes":["gitcommit"]
+		}
+	}
+}
